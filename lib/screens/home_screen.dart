@@ -57,20 +57,19 @@ class HomeScreen extends StatelessWidget {
                     "Lorem epsum lorem",
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                       fontSize: 25.0,
-                      fontWeight:FontWeight.w100
-                      ),
-                    const SizedBox(height: 10),
-                      // Subtitle
-                      Text(
-                        "Lorem lorem lorem",
-                        style: Theme.of(context)
-                            .textTheme
-                            .headlineMedium
-                            ?.copyWith(
-                              fontSize: 25.0,
-                              fontWeight: FontWeight.w100,
-                              color: blackColor,
-                            ),
+                      fontWeight: FontWeight.w100,
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  // Subtitle
+                  Text(
+                    "Lorem lorem lorem",
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
+                      fontSize: 25.0,
+                      fontWeight: FontWeight.w100,
+                      color: blackColor,
+                    ),
+                  ),
                 ],
               ),
             ),
