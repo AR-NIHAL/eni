@@ -21,6 +21,8 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[100],
+      body: page[pageIndex],
       bottomNavigationBar: Container(
         height: 50,
         margin: EdgeInsets.only(left: 30, bottom: 30, right: 30),
