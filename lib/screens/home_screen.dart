@@ -7,7 +7,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey,
+      backgroundColor: Colors.white,
       body: SizedBox(
         height: 250,
         child: Stack(
@@ -23,6 +23,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -44,33 +45,38 @@ class HomeScreen extends StatelessWidget {
                       color: blackColor,
                     ),
                   ),
-                  const SizedBox(height: 10),
                   Text(
-                    "Lorem lorem lorem",
+                    "LOREM qwer ty uio op kjhg asdf okmnhy",
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.w100,
-                      color: blackColor,
-                    ),
-                  ),
-                  Text(
-                    "Lorem epsum lorem",
-                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.w100,
-                    ),
-                  ),
-                  const SizedBox(height: 10),
-                  // Subtitle
-                  Text(
-                    "Lorem lorem lorem",
-                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                      fontSize: 25.0,
-                      fontWeight: FontWeight.w100,
+                      fontSize: 15.0,
+                      fontWeight: FontWeight.w400, // The desired font size
                       color: blackColor,
                     ),
                   ),
                 ],
+              ),
+            ),
+
+            Positioned(
+              left: -10,
+              bottom: 20,
+              child: Container(
+                height: 100,
+                width: 100,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  shape: BoxShape.circle,
+                ),
+                child: Center(
+                  child: Container(
+                    height: 60,
+                    width: 60,
+                    decoration: BoxDecoration(
+                      color: Colors.pinkAccent,
+                      shape: BoxShape.circle,
+                    ),
+                  ),
+                ),
               ),
             ),
           ],
