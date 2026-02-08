@@ -161,7 +161,50 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-
+ // ===== Banner =====
+            SliverToBoxAdapter(
+              child: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 12, 16, 8),
+                child: Container(
+                  height: 120,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16),
+                    gradient: LinearGradient(
+                      colors: [yellowColor, Colors.orange.shade400],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(16),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            "Daily inspiration\nKeep building your habits",
+                            style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                                  color: blackColor,
+                                  fontWeight: FontWeight.w600,
+                                  height: 1.2,
+                                ),
+                          ),
+                        ),
+                        Container(
+                          height: 44,
+                          padding: const EdgeInsets.symmetric(horizontal: 14),
+                          alignment: Alignment.center,
+                          decoration: BoxDecoration(
+                            color: Colors.white.withValues(alpha: 0.9),
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          child: const Text("Explore"),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            ),
             // ===== Horizontal quotes (cards) =====
             SliverToBoxAdapter(
               child: Padding(
