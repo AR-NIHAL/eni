@@ -37,3 +37,21 @@ class Styles {
     fontWeight: FontWeight.w500,
   );
 }
+
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+final themeModeProvider = StateProvider<ThemeMode>((ref) => ThemeMode.light);
+
+class AppTheme {
+  static final light = ThemeData(
+    useMaterial3: true,
+    brightness: Brightness.light,
+  );
+
+  static final dark = ThemeData(
+    useMaterial3: true,
+    brightness: Brightness.dark,
+  );
+}
+
