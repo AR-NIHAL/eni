@@ -31,7 +31,7 @@ class HomeScreen extends StatelessWidget {
             // ===== Your existing header (kept) =====
             SliverToBoxAdapter(
               child: SizedBox(
-                height: 250,
+                height: 240,
                 child: Stack(
                   children: [
                     Container(
