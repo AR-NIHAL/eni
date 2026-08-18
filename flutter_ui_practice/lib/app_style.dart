@@ -32,7 +32,7 @@ class Styles {
     fontWeight: FontWeight.w500,
   );
   static TextStyle headlineStyle5 = TextStyle(
-    fontSize: 22,
+    fontSize: 20,
     color: blackColor,
     fontWeight: FontWeight.w500,
   );
