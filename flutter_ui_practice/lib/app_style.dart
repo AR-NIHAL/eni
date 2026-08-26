@@ -20,7 +20,7 @@ class Styles {
     color: blackColor,
     fontWeight: FontWeight.w500,
   );
-  static TextStyle headlineStyle2 = TextStyle(fontSize: 18, color: blackColor);
+  static TextStyle headlineStyle2 = TextStyle(fontSize: 20, color: blackColor);
   static TextStyle headlineStyle3 = TextStyle(
     fontSize: 18,
     color: blackColor,
