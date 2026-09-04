@@ -16,7 +16,7 @@ Color greyColor = Colors.grey;
 
 class Styles {
   static TextStyle headlineStyle1 = TextStyle(
-    fontSize: 16,
+    fontSize: 18,
     color: blackColor,
     fontWeight: FontWeight.w500,
   );
