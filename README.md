@@ -1,46 +1,17 @@
-# Eni - Unified Flutter Application
+# flutter_application_1
 
-A unified Flutter project combining modern UI practice designs and Riverpod state management into a single application.
-
-## Features
-
-- **Home Screen**: Modern lifestyle and habit dashboard with custom headers, daily inspiration cards, horizontal quote carousel, and category grid.
-- **Riverpod State Management**: Interactive `StateProvider` counter tutorial demonstrating `ref.watch`, `ref.read`, and scoped reactivity.
-- **Profile & Settings**: User profile display with dynamic Riverpod-powered Dark/Light theme switching (`themeModeProvider`).
-- **Interactive Login**: Clean authentication UI screen (`Homepage`).
-- **Notifications**: Notification feed and updates center.
-- **Unified Navigation**: Custom floating bottom navigation bar connecting all core modules.
-
-## Architecture
-
-- **State Management**: `flutter_riverpod` (`ProviderScope`, `StateProvider`, `ConsumerWidget`)
-- **Design System**: Centralized color palette, typography tokens, and light/dark theme definitions in `lib/app_style.dart`.
-- **Project Structure**:
-  - `lib/`
-    - `main.dart` - Entry point wrapping `ProviderScope` and reactive `MyApp`
-    - `app_style.dart` - Styles, theme providers, and `AppTheme`
-    - `homepage.dart` - Authentication and login screen
-    - `screens/`
-      - `bottom_bar.dart` - Root persistent navigation bar
-      - `home_screen.dart` - Habits, quotes, and categories dashboard
-      - `state_provider_screen.dart` - Riverpod state management tutorial
-      - `notification_screen.dart` - Notification list
-      - `profile_screen.dart` - Profile and settings with theme switch
-      - `proifle_screen.dart` - Backward-compatibility alias
+A new Flutter project.
 
 ## Getting Started
 
-1. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
+This project is a starting point for a Flutter application.
 
-2. Run the application:
-   ```bash
-   flutter run
-   ```
+A few resources to get you started if this is your first Flutter project:
 
-3. Run tests:
-   ```bash
-   flutter test
-   ```
+- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
+- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
